@@ -264,6 +264,7 @@ func New(stack *node.Node, config *ethconfig.Config) (*Ethereum, error) {
 				"age", common.PrettyAge(t))
 		}
 	}
+	// IK-MARK good integration point
 	return eth, nil
 }
 
